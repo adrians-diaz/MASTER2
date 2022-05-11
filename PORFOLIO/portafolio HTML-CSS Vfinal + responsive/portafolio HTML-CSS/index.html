@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio HTML - CSS</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+    rel="stylesheet"
+    />
+</head>
+<body>
+    <header>
+        <img src="./assets/images/cube-solid.svg" alt="logo" class="nav-logo">
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="#gallery">Galería</a>
+                </li>
+                <li>
+                    <a href="formulario.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <img src="./assets/images/menu.svg" alt="menu icon" class="menu-icon">
+    </header>
+
+    <section id="about" class="section1 section-container">
+        <div>
+            <h1 class="title">Hola, mi nombre es <span class="my-name">Oriana</span></h1>
+            <p class="text-frontend">Soy desarrolladora web front-end</p>
+        </div>
+
+        <img src="./assets/images/foto-perfil.png" alt="profile picture" class="profile-picture">
+    </section>
+
+    <section class="section2 section-container">
+        <table>
+            <thead>
+                <th>Habilidades profesionales</th>
+                <th>Habilidades blandas</th>
+            </thead>
+
+            <tbody>
+                <tr class="fila-skills">
+                    <td>HTML</td>
+                    <td>Trabajo en equipo</td>
+                </tr>
+
+                <tr class="fila-skills">
+                    <td>CSS</td>
+                    <td>Resiliencia</td>
+                </tr>
+
+                <tr class="fila-skills">
+                    <td>JavaScript</td>
+                    <td>Proactividad</td>
+                </tr>
+
+                <tr>
+                    <td>React js</td>
+                    <td>Resolución de problemas</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="gallery__container gallery__container--proyectos">
+            <h2 class="gallery__title">Proyectos</h2>
+        </div>
+
+        <div class="gallery__container gallery__container--portafolio">
+            <h2 class="gallery__title">Portafolio</h2>
+        </div>
+
+        <div class="gallery__container gallery__container--voluntariado">
+            <h2 class="gallery__title">Voluntariado</h2>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">©Copyright 2022</p>
+        <div class="footer__icons-container">
+            <img src="./assets/images/instagram-brands.svg" alt="instagram icon" class="icon icon--instagram">
+            <img src="./assets/images/linkedin-brands.svg" alt="linkedin icon" class="icon icon--linkedin">
+        </div>
+    </footer>
+</body>
+</html>

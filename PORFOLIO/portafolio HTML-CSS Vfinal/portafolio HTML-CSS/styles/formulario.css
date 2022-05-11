@@ -1,0 +1,153 @@
+* {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #252525;
+    color: white;
+}
+
+/* barra de navegación */
+
+header {
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* position: fixed;
+    width: 100%; */
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-logo {
+    width: 30px;
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-color: #fca311;
+}
+
+/* formulario */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #fca311;
+    font-size: 2.5rem;
+    margin: 4rem 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    min-width: 40%;
+}
+
+.form__label {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.form__input {
+    padding: 0.8rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: #fca311;
+    font-size: 1rem;
+}
+
+.form__input:focus {
+    outline: none;
+    border: 3px solid #fca311;
+}
+
+.form__input::placeholder {
+    color: lightgray
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.form__checkbox {
+    appearance: none;
+    background-color: white;
+    border: 1px solid white;
+    padding: 0.7rem;
+    border-radius: 4px;
+    margin-left: 0.8rem;
+    position: relative;
+}
+
+.form__checkbox:checked {
+    background-color: #fca311;
+}
+
+.form__checkbox:checked::after {
+    content: "\2714";
+    color: #181818;
+    position: absolute;
+    top: 4px;
+    left: 6px;
+}
+
+.form__select {
+    padding: 0.8rem 1rem;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    color: #fca311;
+    font-size: 1rem;
+}
+
+.form__textarea {
+    padding: 1rem 1.2rem;
+    border-radius: 4px;
+    border: 2px solid white;
+    font-size: 1rem;
+    resize: none;
+}
+
+.form__textarea:focus {
+    outline: none;
+}
+
+.form__btn {
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    padding: 0.7rem 2rem;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+.form__btn--submit {
+    background-color: #fca311;
+    color: #252525;
+}
