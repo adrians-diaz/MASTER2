@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+    padding: 0rem 3rem 0rem 3rem;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+
+}
+.imgHeader{
+    width: 10rem;
+}
+ul{
+    display: flex;
+    gap: 2px;
+    margin-top: 2.5rem;
+}
+li{
+    margin-left: 1.2rem;
+}
+.subrayado{
+    text-decoration-color: #a68152;
+    text-decoration-line: underline;
+    border-bottom: 3px;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.sectionHome{
+    display: flex;
+
+}
+.fotoHome{
+    width: 100%;
+}
+.sectionConcepto{
+    background-image: url("../assets/png/fondoVerde.webp");
+    display: flex;
+    justify-content: center;
+}
+.cuadradoNegro{
+    width: 50%;
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    padding: 5rem 7rem 5rem 7rem;
+    margin: 5rem 10rem 5rem 10rem;
+}
+
+.cuadradoNegro > p{
+    margin-top: 1rem;
+}
+.text-divider {
+    display: flex;
+    align-items: center;
+    --text-divider-gap: 1rem; // set a customizable gap between label and lines
+}
+
+.text-divider::before,
+.text-divider::after {
+    content: '';
+    height: 1px;
+    background-color: silver;
+    flex-grow: 1;
+}
+
+.text-divider::before {
+    margin-right: var(--text-divider-gap);
+}
+
+.text-divider::after {
+    margin-left: var(--text-divider-gap);
+}
+.sectionGaleria{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../assets/png/fondoVerde.webp");
+    display: flex;
+    justify-content: center;
+}
+.columna{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem 7rem 5rem 7rem;
+    margin: 5rem 10rem 5rem 10rem;
+}
+
+.columnaIMG > img{
+    margin: 1rem;
+}
+.columnaIMG{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.cartaSection > div{
+    display: inline-block;
+    width: 33%;
+}
+.carta{
+    display: flex;
+    justify-content: center;
+}
+.carta > text-divider{
+    font-size: 5rem;
+}
+.carta > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.cartaImgDiv{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.cartaImgDiv > img{
+    width: 100%;
+    display: inline-block;
+}
+.cartaImgDiv > button{
+    width: 15vw;
+    margin: 2rem 9vw 2rem 9vw;
+    padding: 1rem;
+    background-color: #a68152;
+    color: whitesmoke;
+    font-size: 0.7rem;
+}
+strong{
+    color: black;
+}
+.sectionReservas{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../assets/png/fondoVerde.webp");
+    display: flex;
+    justify-content: center;
+}
+.reservasLine{
+    color: whitesmoke;
+}
+.pantallaFormulario{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 5rem 5rem 5rem;
+    margin: 5rem 0rem 5rem 0rem;
+}
+.formulario{
+    display: inline-block;
+    width: 50%;
+}
+.formlariolinea{
+    display: flex;
+}
+.formBloque {
+    display: block;
+    width: 100%;
+
+}
+.formBloque > *{
+    display: block;
+    width: 100%;
+
+}
+.formBloque > label{
+    color: whitesmoke;
+
+}
+.direccionBar{
+    color: whitesmoke;
+
+}
+h3{
+    color: #a68152;
+    font-size: 1rem;
+
+}
+h4{
+    margin-bottom: 2rem;
+}
+h4 > span{
+    border-bottom: white solid 1px;
+}
+.margintop{
+    margin-top: 2rem;
+}
+.sectionBlog > div{
+    margin-top: 2rem;
+}
+.blogImg{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.buttonBlog{
+    text-align: center;
+}
+.buttonBlog > button{
+    color: whitesmoke;
+    background-color: #a68152;
+    padding: 0.5rem;
+}
+.sectionContacto{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("../assets/png/fondoVerde.webp");
+    display: block;
+    text-align: center;
+
+}
+.bloqueContacto{
+
+}
+.bloqueContacto > img{
+    margin-top: 2rem;
+}
+.bloqueContacto > h1{
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    color: whitesmoke;
+}
+.bloqueContacto2{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-around;
+    color: whitesmoke;
+    width: 100%;
+}
+
+.iconoFin{
+    margin-bottom: 1rem;
+    width: 3rem;
+}
+.sectionSiguenos{
+    display: flex;
+    justify-content: center;
+}
+.ultimosiguenos{
+    margin-top: 2rem;
+    width: 30%;
+}
+.seguir{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem 2rem 0rem;
+
+}
+.seguir > button{
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: white;
+}
+
+footer{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-around;
+}
+footer > div{
+    width: 10vw;
+    margin-bottom: 1rem;
+}
+footer > div > h1{
+    margin: 3rem 0rem 1rem 0rem;
+    font-size: 0.7rem;
+}
+footer > div > p{
+    font-size: 0.5rem;
+}
+
