@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+    margin-left: 5rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
+nav ul{
+    display: flex;
+    gap: 2px;
+}
+.nav-logo{
+    width: 10rem;
+}
+.infoGrill{
+text-align: center;
+}
+.rutaGrill{
+    text-align: center;
+    font-size: 15px;
+}
+td{
+    background-color: whitesmoke;
+    padding: 1rem;
+    font-size: 5px;
+}
+
+.fotosGrill{
+    width: 15rem;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 10rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.infoEmail{
+    text-align: center;
+
+}
+.inputEmail{
+    width: 100%;
+}
+.labelEmail{
+    font-size: 1rem;
+}
