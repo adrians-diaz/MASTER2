@@ -1,0 +1,19 @@
+BLOQUES DISPLAY
+
+https://codepen.io/ohmyorii/pen/eYVpMBX?editors=1100
+
+SEUDOCLASES
+
+https://codepen.io/ohmyorii/pen/NWyGYXz?editors=1100
+
+FLEX
+
+https://codepen.io/ohmyorii/pen/bGLVMLX?editors=1100
+
+SELECTORES UNIVERSALES
+
+https://codepen.io/ohmyorii/pen/LYQprbM?editors=1100
+
+POSITION RELATIVE ABSOLUTE 
+
+https://codepen.io/ohmyorii/pen/eYVZYJK?editors=1100
